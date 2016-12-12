@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handlermessage(View v) {
-        final Handler myHandler = new Handler() {
+        final android.os.Handler myHandler = new android.os.Handler() {
             @Override
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
